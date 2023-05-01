@@ -1,0 +1,42 @@
+.profile-change {
+  width: 350px;
+}
+.driver {
+  border-bottom: 1px solid rgba(148, 148, 148, 0.877);
+}
+.profile-change-flex {
+  display: flex !important;
+  justify-content: space-between;
+}
+.password {
+  -webkit-text-security: disc;
+  /* text-security: disc; */
+  font-size: 25px !important;
+  margin-top: -8px !important;
+  margin-bottom: -8px !important;
+}
+
+.deregister {
+  background: rgb(184, 60, 60) !important;
+  text-transform: none !important;
+  font-weight: 400 !important;
+}
+
+.backToHome {
+  text-decoration: none;
+}
+
+/* ------  */
+.div-shadow {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+  height: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-change {
+    width: 100%;
+  }
+}

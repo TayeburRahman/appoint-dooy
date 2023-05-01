@@ -1,0 +1,77 @@
+.padding-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  text-align: left !important;
+  width: 60px !important;
+}
+
+.padding-cu {
+  padding-left: 10px !important;
+  padding-right: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  text-align: left !important;
+  width: 60px !important;
+}
+
+.rotate {
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+}
+.flex-center {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.button-next {
+  text-transform: none !important;
+  margin: 8px !important;
+}
+.background-box {
+  background: rgb(243, 243, 243);
+}
+.text-cu {
+  font-weight: 500 !important;
+}
+.df-sb {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.df-sb:hover {
+  text-decoration: underline;
+}
+
+.text-bold-18 {
+  font-size: 16px !important;
+  font-weight: 500;
+  color: blue;
+}
+
+.position-a {
+  /* height: 150px !important; */
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+.display-cus-4 {
+  display: none !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .display-cus-3 {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .text-hed {
+    font-size: 26px !important;
+  }
+  .display-cus-2 {
+    display: none !important;
+  }
+}
